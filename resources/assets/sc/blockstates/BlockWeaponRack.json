@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=north": { "model": "sc:weaponRack" },
+        "facing=south": { "model": "sc:weaponRack", "y": 180 },
+        "facing=east":  { "model": "sc:weaponRack", "y": 90 },
+        "facing=west":  { "model": "sc:weaponRack", "y": 270 }
+    }
+}
