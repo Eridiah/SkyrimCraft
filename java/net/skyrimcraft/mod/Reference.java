@@ -11,7 +11,8 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "net.skyrimcraft.mod.proxy.ServerProxy";
 	
 	public static enum SCBlocks {
-		WEAPON_RACK("weaponRack", "BlockWeaponRack");
+		WEAPON_RACK("weaponRack", "BlockWeaponRack"),
+		GRIND_STONE("grindStone", "BlockGrindStone");
 		
 		private String unlocalizedName;
 		private String registryName;

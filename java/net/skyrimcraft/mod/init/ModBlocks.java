@@ -6,18 +6,22 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.skyrimcraft.mod.blocks.BlockGrindStone;
 import net.skyrimcraft.mod.blocks.BlockWeaponRack;
 
 public class ModBlocks {
 
 	public static Block weaponRack;
+	public static Block grindStone;
 	
 	public static void init() {
 		weaponRack = new BlockWeaponRack();
+		grindStone = new BlockGrindStone();
 	}
 	
 	public static void register() {
 		registerBlock(weaponRack);
+		registerBlock(grindStone);
 	}
 	
 	public static void registerBlock(Block block) {
@@ -29,6 +33,7 @@ public class ModBlocks {
 	
 	public static void registerRenders() {
 		registerRender(weaponRack);
+		registerRender(grindStone);
 	}
 	
 	private static void registerRender(Block block) {
