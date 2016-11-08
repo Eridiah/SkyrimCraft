@@ -31,6 +31,28 @@ public class Reference {
 		}
 	}
 	
+	public static enum SCFoods {
+		
+		SWEET_ROLL("sweetRoll", "FoodSweetRoll");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		SCFoods(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+		
+	}
+	
 	public static enum SCItems {
 		HELGEN_KEEP_KEY("helgenKeepKey", "ItemHelgenKeepKey");
 		

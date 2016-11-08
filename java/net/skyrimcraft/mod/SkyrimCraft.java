@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.skyrimcraft.mod.init.ModBlocks;
+import net.skyrimcraft.mod.init.ModFoods;
 import net.skyrimcraft.mod.init.ModItems;
 import net.skyrimcraft.mod.proxy.CommonProxy;
 
@@ -27,6 +28,9 @@ public class SkyrimCraft {
 	public void preInit(FMLPreInitializationEvent event) {
 		ModItems.init();
 		ModItems.register();
+		
+		ModFoods.init();
+		ModFoods.register();
 		
 		ModBlocks.init();
 		ModBlocks.register();
