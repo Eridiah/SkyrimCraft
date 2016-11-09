@@ -24,6 +24,10 @@ public class ModBlocks {
 		registerBlock(grindStone);
 	}
 	
+	/*
+	 * Since blocks now have two versions, Blocks and ItemBlocks, this combines all of the code into one method so that creating blocks is much simpler.
+	 */
+	
 	public static void registerBlock(Block block) {
 		GameRegistry.register(block);
 		ItemBlock item = new ItemBlock(block);
@@ -35,6 +39,10 @@ public class ModBlocks {
 		registerRender(weaponRack);
 		registerRender(grindStone);
 	}
+	
+	/*
+	 * Allows Minecraft to find the location of the Renderer so that it will show up properly in game
+	 */
 	
 	private static void registerRender(Block block) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(), "inventory"));

@@ -23,6 +23,10 @@ public class ModItems {
 		registerRender(helgenKeepKey);
 	}
 	
+	/*
+	 * Allows Minecraft to find the location of the Renderer so that it will show up properly in game
+	 */
+	
 	private static void registerRender(Item item) {
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 	}

@@ -26,11 +26,19 @@ public class BlockWeaponRack extends BlockHorizontal {
 		setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 	}
 	
+	/*
+	 * Gets direction of the player when the block is placed
+	 */
+	
 	@Override
 	public IBlockState onBlockPlaced(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer) {
 		IBlockState state = super.onBlockPlaced(worldIn, pos, facing, hitX, hitY, hitZ, meta, placer);
 		return state.withProperty(FACING, placer.getHorizontalFacing());
 	}
+	
+	/*
+	 * Gets current state of block(In this case, direction is taken)
+	 */
 	
 	@Override
 	public int getMetaFromState(IBlockState state) {
