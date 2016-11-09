@@ -11,6 +11,7 @@ public class Reference {
 	public static final String SERVER_PROXY_CLASS = "net.skyrimcraft.mod.proxy.ServerProxy";
 	
 	public static enum SCBlocks {
+		
 		WEAPON_RACK("weaponRack", "BlockWeaponRack"),
 		GRIND_STONE("grindStone", "BlockGrindStone");
 		
@@ -32,8 +33,10 @@ public class Reference {
 	}
 	
 	public static enum SCFoods {
-		
-		SWEET_ROLL("sweetRoll", "FoodSweetRoll");
+
+		SWEET_ROLL("sweetRoll", "FoodSweetRoll"),
+		GREEN_APPLE("greenApple", "FoodGreenApple"),
+		TOMATO("tomato", "FoodTomato");
 		
 		private String unlocalizedName;
 		private String registryName;
@@ -54,6 +57,7 @@ public class Reference {
 	}
 	
 	public static enum SCItems {
+		
 		HELGEN_KEEP_KEY("helgenKeepKey", "ItemHelgenKeepKey");
 		
 		private String unlocalizedName;
