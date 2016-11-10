@@ -20,7 +20,7 @@ public class BlockWeaponRack extends BlockHorizontal {
 	
 	public BlockWeaponRack() {
 		super(Material.IRON);
-		setCreativeTab(SkyrimCraft.CREATIVE_TAB);
+		setCreativeTab(SkyrimCraft.MAIN_TAB);
 		setUnlocalizedName(Reference.SCBlocks.WEAPON_RACK.getUnlocalizedName());
 		setRegistryName(Reference.SCBlocks.WEAPON_RACK.getRegistryName());
 		setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));

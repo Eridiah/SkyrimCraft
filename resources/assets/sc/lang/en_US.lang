@@ -1,4 +1,5 @@
 itemGroup.tabSC=SkyrimCraft
+itemGroup.tabFood=SkyrimCraft Food
 
 tile.weaponRack.name=Weapon Rack
 tile.grindStone.name=Grindstone
@@ -6,5 +7,8 @@ tile.grindStone.name=Grindstone
 item.sweetRoll.name=Sweetroll
 item.greenApple.name=Green Apple
 item.tomato.name=Tomato
+item.cabbage.name=Cabbage
+item.cheese.name=Cheese
+item.leek.name=Leek
 
 item.helgenKeepKey.name=Helgen Keep Key

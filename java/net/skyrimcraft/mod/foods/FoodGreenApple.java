@@ -8,7 +8,7 @@ public class FoodGreenApple extends ItemFood {
 
 	public FoodGreenApple() {
 		super(4, 0.5F, false);
-		setCreativeTab(SkyrimCraft.CREATIVE_TAB);
+		setCreativeTab(SkyrimCraft.FOOD_TAB);
 		setUnlocalizedName(Reference.SCFoods.GREEN_APPLE.getUnlocalizedName());
 		setRegistryName(Reference.SCFoods.GREEN_APPLE.getRegistryName());
 	}

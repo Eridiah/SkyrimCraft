@@ -36,7 +36,10 @@ public class Reference {
 
 		SWEET_ROLL("sweetRoll", "FoodSweetRoll"),
 		GREEN_APPLE("greenApple", "FoodGreenApple"),
-		TOMATO("tomato", "FoodTomato");
+		TOMATO("tomato", "FoodTomato"),
+		CABBAGE("cabbage", "FoodCabbage"),
+		CHEESE("cheese", "FoodCheese"),
+		LEEK("leek", "FoodLeek");
 		
 		private String unlocalizedName;
 		private String registryName;

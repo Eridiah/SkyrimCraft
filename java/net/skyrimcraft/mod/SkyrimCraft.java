@@ -12,6 +12,8 @@ import net.skyrimcraft.mod.init.ModBlocks;
 import net.skyrimcraft.mod.init.ModFoods;
 import net.skyrimcraft.mod.init.ModItems;
 import net.skyrimcraft.mod.proxy.CommonProxy;
+import net.skyrimcraft.mod.tabs.FoodTab;
+import net.skyrimcraft.mod.tabs.MainTab;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
 public class SkyrimCraft {
@@ -22,7 +24,8 @@ public class SkyrimCraft {
 	@Instance
 	public static SkyrimCraft instance;
 	
-	public static final CreativeTabs CREATIVE_TAB = new ModTab();
+	public static final CreativeTabs MAIN_TAB = new MainTab();
+	public static final CreativeTabs FOOD_TAB = new FoodTab();
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

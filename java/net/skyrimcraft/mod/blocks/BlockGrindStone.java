@@ -10,7 +10,7 @@ public class BlockGrindStone extends Block {
 
 	public BlockGrindStone() {
 		super(Material.WOOD);
-		setCreativeTab(SkyrimCraft.CREATIVE_TAB);
+		setCreativeTab(SkyrimCraft.MAIN_TAB);
 		setUnlocalizedName(Reference.SCBlocks.GRIND_STONE.getUnlocalizedName());
 		setRegistryName(Reference.SCBlocks.GRIND_STONE.getRegistryName());
 	}

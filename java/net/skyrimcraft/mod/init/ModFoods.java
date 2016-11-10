@@ -4,7 +4,10 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.skyrimcraft.mod.foods.FoodCabbage;
+import net.skyrimcraft.mod.foods.FoodCheese;
 import net.skyrimcraft.mod.foods.FoodGreenApple;
+import net.skyrimcraft.mod.foods.FoodLeek;
 import net.skyrimcraft.mod.foods.FoodSweetRoll;
 import net.skyrimcraft.mod.foods.FoodTomato;
 
@@ -14,24 +17,36 @@ public class ModFoods {
 	public static Item sweetRoll;
 	public static Item greenApple;
 	public static Item tomato;
+	public static Item cabbage;
+	public static Item cheese;
+	public static Item leek;
 	
 	
 	public static void init() {
 		sweetRoll = new FoodSweetRoll();
 		greenApple = new FoodGreenApple();
 		tomato = new FoodTomato();
+		cabbage = new FoodCabbage();
+		cheese = new FoodCheese();
+		leek = new FoodLeek();
 	}
 	
 	public static void register() {
 		GameRegistry.register(sweetRoll);
 		GameRegistry.register(greenApple);
 		GameRegistry.register(tomato);
+		GameRegistry.register(cabbage);
+		GameRegistry.register(cheese);
+		GameRegistry.register(leek);
 	}
 
 	public static void registerRenders() {
 		registerRender(sweetRoll);
 		registerRender(greenApple);
 		registerRender(tomato);
+		registerRender(cabbage);
+		registerRender(cheese);
+		registerRender(leek);
 	}
 	
 	/*

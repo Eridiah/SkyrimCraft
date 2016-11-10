@@ -8,7 +8,7 @@ public class FoodSweetRoll extends ItemFood {
 
 	public FoodSweetRoll() {
 		super(4, 0.5F, false); //Parameters are the different Food values
-		setCreativeTab(SkyrimCraft.CREATIVE_TAB);
+		setCreativeTab(SkyrimCraft.FOOD_TAB);
 		setUnlocalizedName(Reference.SCFoods.SWEET_ROLL.getUnlocalizedName());
 		setRegistryName(Reference.SCFoods.SWEET_ROLL.getRegistryName());
 	}

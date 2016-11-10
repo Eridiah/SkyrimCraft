@@ -7,7 +7,7 @@ import net.skyrimcraft.mod.SkyrimCraft;
 public class ItemHelgenKeepKey extends Item {
 
 	public ItemHelgenKeepKey() {
-		setCreativeTab(SkyrimCraft.CREATIVE_TAB);
+		setCreativeTab(SkyrimCraft.MAIN_TAB);
 		setUnlocalizedName(Reference.SCItems.HELGEN_KEEP_KEY.getUnlocalizedName());
 		setRegistryName(Reference.SCItems.HELGEN_KEEP_KEY.getRegistryName());
 	}

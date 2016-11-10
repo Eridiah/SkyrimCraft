@@ -4,13 +4,13 @@ import net.minecraft.item.ItemFood;
 import net.skyrimcraft.mod.Reference;
 import net.skyrimcraft.mod.SkyrimCraft;
 
-public class FoodTomato extends ItemFood {
+public class FoodLeek extends ItemFood {
 
-	public FoodTomato() {
+	public FoodLeek() {
 		super(4, 0.5F, false);
 		setCreativeTab(SkyrimCraft.FOOD_TAB);
-		setUnlocalizedName(Reference.SCFoods.TOMATO.getUnlocalizedName());
-		setRegistryName(Reference.SCFoods.TOMATO.getRegistryName());
+		setUnlocalizedName(Reference.SCFoods.LEEK.getUnlocalizedName());
+		setRegistryName(Reference.SCFoods.LEEK.getRegistryName());
 	}
-
+	
 }
