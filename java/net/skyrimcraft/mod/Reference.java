@@ -61,7 +61,8 @@ public class Reference {
 	
 	public static enum SCIngredients {
 		
-		SALT_PILE("saltPile", "IngredientSaltPile");
+		SALT_PILE("saltPile", "IngredientSaltPile"),
+		SACK_OF_FLOUR("sackOfFlour", "IngredientSackOfFlour");
 		
 		private String unlocalizedName;
 		private String registryName;
