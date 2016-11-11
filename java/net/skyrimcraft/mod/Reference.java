@@ -59,6 +59,27 @@ public class Reference {
 		
 	}
 	
+	public static enum SCIngredients {
+		
+		SALT_PILE("saltPile", "IngredientSaltPile");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		SCIngredients(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+	}
+	
 	public static enum SCItems {
 		
 		HELGEN_KEEP_KEY("helgenKeepKey", "ItemHelgenKeepKey");
