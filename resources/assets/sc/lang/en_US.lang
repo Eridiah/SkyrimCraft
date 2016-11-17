@@ -1,8 +1,11 @@
-itemGroup.tabSC=SkyrimCraft
+itemGroup.tabDrink=SkyrimCraft Drinks
 itemGroup.tabFood=SkyrimCraft Food
+itemGroup.tabSC=SkyrimCraft Misc
 
 tile.weaponRack.name=Weapon Rack
 tile.grindStone.name=Grindstone
+
+item.altoWine.name=Alto Wine
 
 item.sweetRoll.name=Sweetroll
 item.greenApple.name=Green Apple
@@ -10,6 +13,8 @@ item.tomato.name=Tomato
 item.cabbage.name=Cabbage
 item.cheese.name=Cheese
 item.leek.name=Leek
+
+item.appleCabbageStew.name=Apple Cabbage Stew
 
 item.saltPile.name=Salt Pile
 item.sackOfFlour.name=Sack of Flour

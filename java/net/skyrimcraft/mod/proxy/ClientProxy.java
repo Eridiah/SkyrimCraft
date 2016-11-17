@@ -1,6 +1,7 @@
 package net.skyrimcraft.mod.proxy;
 
 import net.skyrimcraft.mod.init.ModBlocks;
+import net.skyrimcraft.mod.init.ModDrinks;
 import net.skyrimcraft.mod.init.ModFoods;
 import net.skyrimcraft.mod.init.ModIngredients;
 import net.skyrimcraft.mod.init.ModItems;
@@ -12,6 +13,7 @@ public class ClientProxy implements CommonProxy {
 		ModItems.registerRenders();
 		ModIngredients.registerRenders();
 		ModFoods.registerRenders();
+		ModDrinks.registerRenders();
 		ModBlocks.registerRenders();
 	}
 	

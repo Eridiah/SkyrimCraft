@@ -32,14 +32,41 @@ public class Reference {
 		}
 	}
 	
+	public static enum SCDrinks {
+		
+		//Drinks
+		ALTO_WINE("altoWine", "DrinkAltoWine");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		SCDrinks(String unlocalizedName, String registryName) {
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName() {
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName() {
+			return registryName;
+		}
+		
+	}
+	
 	public static enum SCFoods {
 
+		//Default Foods
 		SWEET_ROLL("sweetRoll", "FoodSweetRoll"),
 		GREEN_APPLE("greenApple", "FoodGreenApple"),
 		TOMATO("tomato", "FoodTomato"),
 		CABBAGE("cabbage", "FoodCabbage"),
 		CHEESE("cheese", "FoodCheese"),
-		LEEK("leek", "FoodLeek");
+		LEEK("leek", "FoodLeek"),
+		
+		//Craftable Foods
+		APPLE_CABBAGE_STEW("appleCabbageStew", "FoodAppleCabbageStew");
 		
 		private String unlocalizedName;
 		private String registryName;
