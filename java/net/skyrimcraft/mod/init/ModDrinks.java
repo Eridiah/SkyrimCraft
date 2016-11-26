@@ -2,7 +2,9 @@ package net.skyrimcraft.mod.init;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.skyrimcraft.mod.drinks.DrinkAltoWine;
 

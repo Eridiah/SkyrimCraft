@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.skyrimcraft.mod.init.ModBlocks;
 import net.skyrimcraft.mod.init.ModCrafting;
 import net.skyrimcraft.mod.init.ModDrinks;
+import net.skyrimcraft.mod.init.ModEntity;
 import net.skyrimcraft.mod.init.ModFoods;
 import net.skyrimcraft.mod.init.ModIngredients;
 import net.skyrimcraft.mod.init.ModItems;
@@ -49,11 +50,14 @@ public class SkyrimCraft {
 		ModBlocks.init();
 		ModBlocks.register();
 		
+		
 	}
 	
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		proxy.init();
+		
+		ModEntity.registerEntity();
 		
 		ModCrafting.register();
 		
