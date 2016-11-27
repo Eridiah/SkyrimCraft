@@ -35,7 +35,26 @@ public class Reference {
 	public static enum SCDrinks {
 		
 		//Drinks
-		ALTO_WINE("altoWine", "DrinkAltoWine");
+		ALE("ale", "DrinkAle"),
+		ALTO_WINE("altoWine", "DrinkAltoWine"),
+		ARGONIAN_ALE("argonianAle", "DrinkArgonianAle"),
+		BALMORA_BLUE("balmoraBlue", "DrinkBalmoraBlue"),
+		BLACK_BRIAR_MEAD("blackbriarMead", "DrinkBlackbriarMead"),
+		BLACK_BRIAR_RESERVE("blackbriarReserve", "DrinkBlackbriarReserve"),
+		CLIFF_RACER("cliffRacer", "DrinkCliffRacer"),
+		COLOVIAN_BRANDY("colovianBrandy", "DrinkColovianBrandy"),
+		CYRODILIC_BRANDY("cyrodilicBrandy", "DrinkCyrodilicBrandy"),
+		DOUBLE_DISTILLED_SKOOMA("doubleDistilledSkooma", "DrinkDoubleDistilledSkooma"),
+		DRAGONS_BREATH_MEAD("dragonsBreathMead", "DrinkDragonsBreathMead"),
+		FIREBRAND_WINE("firebrandWine", "DrinkFirebrandWine"),
+		HONNINGBREW_MEAD("honningbrewMead", "DrinkHonningbrewMead"),
+		MEAD_WITH_JUNIPER_BERRY("meadWithJuniperBerry", "DrinkMeadWithJuniperBerry"),
+		NORD_MEAD("nordMead", "DrinkNordMead"),
+		SKOOMA("skooma", "DrinkSkooma"),
+		SPICED_WINE("spicedWine", "DrinkSpicedWine"),
+		STROS_MKAI_RUM("strosMkaiRum", "DrinkStrosMkaiRum"),
+		VELVET_LECHANCE("velvetLeChance", "DrinkVelvetLeChance"),
+		WHITE_GOLD_TOWER("whitegoldTower", "DrinkWhitegoldTower");
 		
 		private String unlocalizedName;
 		private String registryName;

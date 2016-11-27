@@ -50,7 +50,6 @@ public class SkyrimCraft {
 		ModBlocks.init();
 		ModBlocks.register();
 		
-		
 	}
 	
 	@EventHandler

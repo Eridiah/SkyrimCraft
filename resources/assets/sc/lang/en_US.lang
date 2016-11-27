@@ -2,21 +2,40 @@ itemGroup.tabDrink=SkyrimCraft Drinks
 itemGroup.tabFood=SkyrimCraft Food
 itemGroup.tabSC=SkyrimCraft Misc
 
-tile.weaponRack.name=Weapon Rack
 tile.grindStone.name=Grindstone
+tile.weaponRack.name=Weapon Rack
 
+item.ale.name=Ale
 item.altoWine.name=Alto Wine
+item.argonianAle.name=Argonian Ale
+item.balmoraBlue.name=Balmora Blue
+item.blackbriarMead.name=Black-Briar Mead
+item.blackbriarReserve.name=Black-Briar Reserve
+item.cliffRacer.name=Cliff Racer
+item.colovianBrandy.name=Colovian Brandy
+item.cyrodilicBrandy.name=Cyrodilic Brandy
+item.doubleDistilledSkooma.name=Double Distilled Skooma
+item.dragonsBreathMead.name=Dragon's Breath Mead
+item.firebrandWine.name=Firebrand Wine
+item.honningbrewMead.name=Honningbrew Mead
+item.meadWithJuniperBerry.name=Mead with Juniper Berries
+item.nordMead.name=Nord Mead
+item.skooma.name=Skooma
+item.spicedWine.name=Spiced Wine
+item.strosMkaiRum.name=Stros M'Kai Rum
+item.velvetLeChance.name=Velvet LeChance
+item.whitegoldTower.name=White-Gold Tower
 
-item.sweetRoll.name=Sweetroll
-item.greenApple.name=Green Apple
-item.tomato.name=Tomato
 item.cabbage.name=Cabbage
 item.cheese.name=Cheese
+item.greenApple.name=Green Apple
 item.leek.name=Leek
+item.sweetRoll.name=Sweetroll
+item.tomato.name=Tomato
 
 item.appleCabbageStew.name=Apple Cabbage Stew
 
-item.saltPile.name=Salt Pile
 item.sackOfFlour.name=Sack of Flour
+item.saltPile.name=Salt Pile
 
 item.helgenKeepKey.name=Helgen Keep Key
