@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkColovianBrandy extends ItemDrink {
 
 	public DrinkColovianBrandy() {
+		super(0, 0, false);
 		setUnlocalizedName(Reference.SCDrinks.COLOVIAN_BRANDY.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.COLOVIAN_BRANDY.getRegistryName());
 		setCreativeTab(SkyrimCraft.DRINK_TAB);

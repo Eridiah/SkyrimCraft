@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkVelvetLeChance extends ItemDrink {
 
 	public DrinkVelvetLeChance() {
+		super(0, 0, false);
 		setCreativeTab(SkyrimCraft.DRINK_TAB);
 		setUnlocalizedName(Reference.SCDrinks.VELVET_LECHANCE.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.VELVET_LECHANCE.getRegistryName());

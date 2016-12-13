@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkSpicedWine extends ItemDrink {
 
 	public DrinkSpicedWine() {
+		super(0, 0, false);
 		setCreativeTab(SkyrimCraft.DRINK_TAB);
 		setUnlocalizedName(Reference.SCDrinks.SPICED_WINE.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.SPICED_WINE.getRegistryName());

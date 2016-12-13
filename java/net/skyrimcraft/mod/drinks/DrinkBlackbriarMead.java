@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkBlackbriarMead extends ItemDrink {
 
 	public DrinkBlackbriarMead() {
+		super(0, 0, false);
 		setCreativeTab(SkyrimCraft.DRINK_TAB);
 		setUnlocalizedName(Reference.SCDrinks.BLACK_BRIAR_MEAD.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.BLACK_BRIAR_MEAD.getRegistryName());

@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkNordMead extends ItemDrink {
 
 	public DrinkNordMead() {
+		super(0, 0, false);
 		setUnlocalizedName(Reference.SCDrinks.NORD_MEAD.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.NORD_MEAD.getRegistryName());
 		setCreativeTab(SkyrimCraft.DRINK_TAB);

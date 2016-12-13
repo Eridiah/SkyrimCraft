@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkWhitegoldTower extends ItemDrink {
 
 	public DrinkWhitegoldTower() {
+		super(0, 0, false);
 		setCreativeTab(SkyrimCraft.DRINK_TAB);
 		setUnlocalizedName(Reference.SCDrinks.WHITE_GOLD_TOWER.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.WHITE_GOLD_TOWER.getRegistryName());

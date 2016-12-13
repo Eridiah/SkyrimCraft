@@ -7,6 +7,7 @@ import net.skyrimcraft.mod.items.ItemDrink;
 public class DrinkStrosMkaiRum extends ItemDrink {
 
 	public DrinkStrosMkaiRum() {
+		super(0, 0, false);
 		setCreativeTab(SkyrimCraft.DRINK_TAB);
 		setUnlocalizedName(Reference.SCDrinks.STROS_MKAI_RUM.getUnlocalizedName());
 		setRegistryName(Reference.SCDrinks.STROS_MKAI_RUM.getRegistryName());
