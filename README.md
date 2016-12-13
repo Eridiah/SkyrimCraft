@@ -1,4 +1,4 @@
-# SkyrimCraft
+# SkyrimCraft Mod
 The SkyrimCraft mod is a Minecraft mod that brings the world of Skyrim and everything in it into Minecraft! From foods to weapons, this mod will bring just about every aspect of Skyrim into Minecraft. 
 
 
