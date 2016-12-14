@@ -8,4 +8,6 @@ Future Plans/Updates
   <li><b>Alpha 0.2: The Weaponry Update</b>: All Weapons will be added to Minecraft</li>
 </ul>
 
-The mod is currently under development, so if you find any bugs or glitches, please let me know through modding email: <a href="mailto:eridiahmods@gmail.com?Subject=Bugs%20And&20Glitches">eridiahmods@gmail.com</a>
+Currently, the only person working on this mod is myself, Eridiah. If you are interested in helping speed up the development of this mod, whether it be through texture creation or model design, please let me know <a href="mailto:eridiahmods@gmail.com">here</a>.
+
+The mod is currently under development, so if you find any bugs or glitches, please let me know through my modding email: <a href="mailto:eridiahmods@gmail.com">eridiahmods@gmail.com</a>.
